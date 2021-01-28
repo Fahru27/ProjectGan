@@ -88,7 +88,7 @@
         </section>
         <section id="tim">
             <h2>Tim Kami</h2>
-            <div>
+            <div class="container">
                 <div>
                     <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
                     <p>Alif Maulana R.</p>
@@ -106,7 +106,7 @@
                     <p>Naufal Yusran</p>
                 </div>
             </div>
-            <p>Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
+            <p class="container">Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
         </section>
         <!-- <section id="portofolio">
             <h2>Portofolio</h2>
