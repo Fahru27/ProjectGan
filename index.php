@@ -45,7 +45,7 @@
         </div>
         <div class="jumbotron jumbotron-fluid">
             <div id="text">
-                <h1>build your website<br>with "project gan"</h1>
+                <h1>Build your website<br>with "project gan"</h1>
                 <p>Providing good result with fair price</p>
                 <a href="" class="order">order now</a>
             </div>
@@ -70,11 +70,12 @@
                     </div>
                 </div>
                 <div>
+                    <img id="g1" src="images/Fast Working_Monochromatic (1).png" alt="">
                     <div>
                         <h3>Pengerjaan Cepat</h3>
                         <p>Satu project dikerjakan dengan 4 developer sehingga waktu pengerjaan lebih cepat dan efisien.</p>
                     </div>
-                    <img src="images/Fast Working_Monochromatic (1).png" alt="">
+                    <img id="g2" src="images/Fast Working_Monochromatic (1).png" alt="">
                 </div>
                 <div>
                     <img src="images/Security_Isometric (2).png" alt="">
@@ -107,9 +108,9 @@
             </div>
             <p>Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
         </section>
-        <section id="portofolio">
+        <!-- <section id="portofolio">
             <h2>Portofolio</h2>
-        </section>
+        </section> -->
     </main>
     <footer>
         <div class="container">

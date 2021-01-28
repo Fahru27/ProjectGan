@@ -77,6 +77,10 @@
     line-height: 30px;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 #mengapa {
     width: 50%;
     margin: 0 auto;
@@ -107,6 +111,10 @@
 
 #mengapa img {
     width: 25%;
+}
+
+#mengapa #g1 {
+  display: none;
 }
 
 #tim {
@@ -292,6 +300,62 @@ nav {
   .link-item {
     color: #fff !important;
   }
+
+    .jumbotron {
+      text-align: center !important;
+      background-image: url(images/bg2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #text {
+      padding-top: 40%;
+    }
+
+    .jumbotron img {
+      display: none !important;
+    }
+
+    #about {
+      text-align: center !important;
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+
+    #tentang {
+      text-align: center;
+      margin-left: auto;
+    }
+
+    #tentang p {
+      margin: 0 -30px 0 -30px;
+      line-height: 30px;
+    }
+
+    #tentang h2 {
+      margin-bottom: 10%;
+      margin-left: -25%;
+      margin-right: -25%;
+      font-weight: bold;
+    }
+
+  #mengapa>div {
+    display: block !important;
+  }  
+  
+  #mengapa img {
+    width: 50% !important;
+  }
+
+  #mengapa #g2 {
+    display: none  !important;
+  }
+
+  #mengapa #g1 {
+    display: block !important;
+    margin: auto;
+  }
+
 }
 
 .overlay .closebtn {
