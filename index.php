@@ -30,13 +30,13 @@
                                 <a class="nav-link text-dark font-weight-bold link-item" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark font-weight-bold link-item" href="#">About</a>
+                                <a class="nav-link text-dark font-weight-bold link-item" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark font-weight-bold link-item" href="#">Team</a>
+                                <a class="nav-link text-dark font-weight-bold link-item" href="#tim">Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark font-weight-bold link-item" href="#">Contact Us</a>
+                                <a class="nav-link text-dark font-weight-bold link-item" href="#contactUs">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -86,60 +86,102 @@
                 </div>
             </article>
         </section>
-        <section id="tim">
+
+        <section id="tim" class="px-4">
             <h2>Tim Kami</h2>
-            <div class="container">
-                <div>
-                    <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
-                    <p>Alif Maulana R.</p>
+            <div class="container-fluid mb-5">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <div>
+                      <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+                      <p>Alif Maulana R.</p>
+                  </div>
                 </div>
-                <div>
-                    <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
-                    <p>Fahrudin Nasikh A.</p>
+                <div class="col-6 col-md-3">
+                  <div>
+                      <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+                      <p>Fahrudin Nasikh A.</p>
+                  </div>
                 </div>
-                <div>
-                    <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
-                    <p>M. Ilham Rizkyakbar</p>
+                <div class="col-6 col-md-3">
+                  <div>
+                      <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+                      <p>M. Ilham Rizkyakbar</p>
+                  </div>
                 </div>
-                <div>
-                    <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
-                    <p>Naufal Yusran</p>
+                <div class="col-6 col-md-3">
+                  <div>
+                      <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+                      <p>Naufal Yusran</p>
+                  </div>
                 </div>
+              </div>
             </div>
-            <p class="container">Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-6">
+                <p>Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
+              </div>
+            </div>
         </section>
-        <!-- <section id="portofolio">
-            <h2>Portofolio</h2>
-        </section> -->
+
+        <section class="bg-light p-5 mt-4">
+          <div class="container-fluid text-center">
+            <h2>Punya Pertanyaan?</h2>
+            <h5 class="mb-4 fw-normal">Tanyakan Saja</h5>
+            <form>
+              <div class="row justify-content-center mb-3">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                  <div class="form-group text-start">
+                    <label for="name" class="fw-normal fs-6">Nama</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mb-3">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                  <div class="form-group text-start">
+                    <label for="email" class="fw-normal fs-6">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mb-3">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                  <div class="form-group text-start">
+                    <label for="message" class="fw-normal fs-6">Pesan</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6 mb-4">
+                  <a href="#" class="btn fs-6 submit-question-btn">Submit Pertanyaan</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
     </main>
-    <footer>
-        <div class="container">
-            <h2 id="h2contact">Contact Us</h2>
-            <section id="contact">
-                <div>
-                    <p>Hubungi kami sekarang dan buat<br>website anda</p>
-                    <div id="sosial">
-                        <img src="images/toppng.com-facebook-transparent-logo-png-1600x1600-1600x1600.png" alt="">
-                        <img src="images/toppng.com-gmail-icon-android-lollipop-512x512.png" alt="">
-                        <img src="images/toppng.com-instagram-pn-599x600.png" alt="">
-                        <img src="images/toppng.com-whatsapp-transparent-p-1012x1024.png" alt="">
-                    </div>
-                    <p>Jl. Kaliurang KM 12.5, Sardonoharjo,<br>Nganglik, Sleman, D.I Yogyakarta.<br><br>WA/Telp: 082238248899<br>Email: projectgan@gmail.com</p>
-                </div>
-                <div>
-                    <form action="">
-                        <input type="text" name="nama" id="nama" placeholder="Name">
-                        <input type="email" name="email" id="email" placeholder="Email">
-                        <input type="text" name="notelp" id="notelp" placeholder="Phone">
-                        <textarea name="pesan" id="pesan" rows="10" placeholder="Message"></textarea>
-                        <button>Send</button>
-                    </form>
-                </div>
-            </section>
+
+    <footer class="bg-footer px-5">
+      <div class="py-5 container">
+        <div class="row">
+          <div class="col-sm-10 col-lg-8 col-xl-9">
+            <h4>ProjectGan</h4>
+            <p class="fw-normal">Jl. Kaliurang KM 12.5, Sardonoharjo, Nganglik, Sleman, D.I Yogyakarta.</p>
+            <p class="fw-normal mb-0">WA/Telp: 082238248899 <br>Email: projectgan@gmail.com</p>
+          </div>
+          <div class="col-sm-10 col-lg-4 col-xl-3 mt-5 mt-lg-0">
+            <h4>Contact Us</h4>
+            <div id="contactUs" class="d-inline-block pt-2 pb-1 medsos-container">
+              <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+              <a href="#"><i class="fab fa-whatsapp fa-2x text-success mx-3"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="container" id="copyright">
-            <p>Developed by ProjectGan Copyright &copy; 2021</p>
-        </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
