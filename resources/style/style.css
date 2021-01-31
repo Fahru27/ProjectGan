@@ -8,24 +8,12 @@
     line-height: 1.75rem;
 }
 
-.order:link {
-  text-decoration: none;
-}
-
-.order:visited {
-  text-decoration: none;
-}
-
-.order:hover {
-  text-decoration: none;
-}
-
-.order:active {
+#text a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
 .jumbotron {
-    background-image: url(images/bg3.jpg);
+    background-image: url(../images/bg3.jpg);
     background-size: cover;
     background-position: center;
     height: 110vh;
@@ -33,6 +21,8 @@
 
 .jumbotron h1 {
     font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
     color: #00A3FF;
 }
 
@@ -70,6 +60,7 @@
 #tentang {
     margin: 0 auto;
     width: 45%;
+    margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -100,8 +91,7 @@ h2 {
 }
 
 #about>h2 {
-    margin-top: 70px;
-    margin-bottom: 20px;
+  margin-bottom: 5rem;
 }
 
 #mengapa h3 {
@@ -229,23 +219,17 @@ h2 {
   margin-bottom: 100px;
 }
 
-.copyright p {
-  margin: 0px 0px 0px;
-}
-
-.copyright {
-  text-align: center;
-  background-color: #50bfc5;
-  padding: 10px;
-}
-
 .medsos-container {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #ace9ec;
   border-radius: 20px;
 }
 
 #copyright {
-
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
 }
 
 nav {
@@ -255,12 +239,14 @@ nav {
 @media only screen and (max-width: 800px) {
   nav {
     padding: 0 10%;
+    padding-left: 3%;
   }
 }
 
 @media only screen and (max-width: 576px) {
   nav {
     padding: 0 7%;
+    padding-left: 3%;
   }
 }
 
@@ -275,57 +261,9 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    /* background-color: rgb(0,0,0); */
-    /* background-color: rgba(0,0,0, 0.9); */
-    background-color: #2f9ea3;
-    opacity: 0.8;
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .overlay .closebtn {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #f1f1f1;
-    display: block;
-    transition: 0.3s;
-  }
-
-  .overlay .closebtn:hover, .overlay .closebtn:focus {
-    color: #818181;
-  }
-
-  .overlay .closebtn {
-    display: block !important;
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-
-  .link-item {
-    color: #fff !important;
-  }
-
     .jumbotron {
       text-align: center !important;
-      background-image: url(images/bg2.jpg);
+      background-image: url(../images/bg2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -361,23 +299,22 @@ nav {
       font-weight: bold;
     }
 
-  #mengapa>div {
-    display: block !important;
-  }
+    #mengapa>div {
+      display: block !important;
+    }
 
-  #mengapa img {
-    width: 50% !important;
-  }
+    #mengapa img {
+      width: 50% !important;
+    }
 
-  #mengapa #g2 {
-    display: none  !important;
-  }
+    #mengapa #g2 {
+      display: none  !important;
+    }
 
-  #mengapa #g1 {
-    display: block !important;
-    margin: auto;
-  }
-
+    #mengapa #g1 {
+      display: block !important;
+      margin: auto;
+    }
 }
 
 .overlay .closebtn {
