@@ -225,9 +225,27 @@ h2 {
   background-color: #7ce2e7;
 }
 
+.bg-footer .row {
+  margin-bottom: 100px;
+}
+
+.copyright p {
+  margin: 0px 0px 0px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #50bfc5;
+  padding: 10px;
+}
+
 .medsos-container {
   background-color: #ace9ec;
   border-radius: 20px;
+}
+
+#copyright {
+
 }
 
 nav {
