@@ -8,228 +8,13 @@
     line-height: 1.75rem;
 }
 
-.order:link {
-  text-decoration: none;
-}
-
-.order:visited {
-  text-decoration: none;
-}
-
-.order:hover {
-  text-decoration: none;
-}
-
-.order:active {
-  text-decoration: none;
-}
-
-.jumbotron {
-    background-image: url(images/bg3.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 110vh;
-}
-
-.jumbotron h1 {
-    font-size: 2rem;
-    color: #00A3FF;
-}
-
-.jumbotron p {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 1.15rem;
-}
-
-#text {
-    padding: 15%;
-}
-
-.jumbotron img {
-    width: 25%;
-    margin: -30% 60%;
-    display: block;
-}
-
-.jumbotron a {
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-size: medium;
-    background: #F9F9F9;
-    border: 1px solid #D8D8D8;
-    box-sizing: border-box;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-#about {
-    text-align: center;
-}
-
-#tentang {
-    margin: 0 auto;
-    width: 45%;
-}
-
-@media only screen and (max-width: 768px) {
-  #tentang, #mengapa {
-    width: 80% !important;
-  }
-}
-
-#tentang p {
-    margin: 20px;
-    line-height: 30px;
-}
-
 h2 {
   font-weight: bold;
 }
 
-#mengapa {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#about {
-    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%22772%22%20height%3D%22904%22%20viewBox%3D%220%200%20772%20904%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M-84.8752%20872.721C-107.38%20869.043%20-128.81%20866.334%20-150.166%20858.52C-151.42%20857.076%20-152.659%20855.588%20-154.894%20855.001C-159.817%20853.708%20-164.341%20853.894%20-169.196%20852.619C-173.732%20851.428%20-177.063%20849.215%20-180.894%20846.283C-184.08%20843.844%20-191.219%20845.517%20-194.406%20843.078C-202.27%20837.059%20-215.759%20833.836%20-225.478%20829.764C-243.19%20822.344%20-259.209%20812.505%20-275.149%20801.793C-322.708%20769.83%20-374.685%20742.691%20-422.838%20710.59C-454.803%20689.281%20-491.197%20655.867%20-507.988%20620.599C-525.474%20583.869%20-530.478%20543.662%20-531.341%20503.468C-531.911%20476.958%20-534.387%20449.551%20-532.53%20423.1C-530.457%20393.572%20-521.741%20363.544%20-512.632%20335.557C-503.239%20306.7%20-484.865%20276.355%20-467.653%20251.508C-454.729%20232.852%20-441.077%20214.789%20-427.151%20196.863C-417.781%20184.802%20-410.007%20170.723%20-399.449%20159.701C-352.812%20111.017%20-283.129%2097.7699%20-220.985%2081.3896C-143.687%2061.0151%20-66.0216%2044.7166%2012.6588%2030.931C52.7883%2023.8999%2092.395%2014.699%20133.285%2013.8207C171.524%2012.9993%20209.986%2010.9039%20248.202%2012.5622C317.12%2015.5528%20382.418%2017.6352%20448.924%2037.9612C540.388%2065.915%20637.143%20106.388%20705.436%20175.896C728.808%20199.684%20757.411%20229.776%20758.178%20265.508C758.955%20301.663%20740.48%20326.455%20727.657%20359.194C709.497%20405.559%20669.637%20443.789%20656.425%20491.532C651.84%20508.099%20642.499%20523.328%20638.783%20540.174C636.506%20550.494%20638.746%20563.501%20638.973%20574.048C639.603%20603.391%20647.797%20622.334%20656.2%20650.038C666.806%20685.007%20678.7%20738.901%20643.615%20765.118C619.471%20783.159%20594.889%20803.34%20567.817%20816.354C542.524%20828.512%20515.108%20837.181%20488.327%20845.89C454.848%20856.776%20421.035%20868.288%20386.527%20875.77C355.172%20882.569%20321.955%20883.342%20289.91%20884.03L183.485%20886.316C151.402%20887.005%20113.709%20893.183%2082.0054%20887.286C62.9379%20883.739%2041.7514%20887.298%2022.4512%20887.355C8.19459%20887.397%20-6.00746%20883.439%20-20.384%20883.436C-41.9349%20883.43%20-63.7385%20876.176%20-84.8752%20872.721Z%22%20fill%3D%22%2367DDE4%22%20fill-opacity%3D%220.87%22%2F%3E%0A%3C%2Fsvg%3E");
-    background-repeat: no-repeat;
-    background-position: left;
-    /* margin-top: 3%; */
-}
-
-#about>h2 {
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-
-#mengapa h3 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin: 20px;
-}
-
-#mengapa>div {
-    display: flex;
-    align-items: center;
-}
-
-#mengapa img {
-    width: 25%;
-}
-
-#mengapa #g1 {
-  display: none;
-}
-
-#tim {
-    text-align: center;
-    margin-top: 7rem;
-}
-
-#tim>div {
-    display: flex;
-}
-
-#tim img {
-    margin: 40px 0;
-    width: 60%;
-}
-
-#tim>p {
-    margin-top: 40px;
-    text-align: center;
-    width: 50%;
-}
-
-@media only screen and (max-width: 768px) {
-  #tim>p {
-    width: 80% !important;
-  }
-}
-
-#portofolio {
-    text-align: center;
-    height: 100vh;
-}
-
-#contact {
-    /* padding-top: 105px; */
-    text-align: center;
-    color: white;
-    /* width: 100%;
-    height: 155vh; */
-    /* background-image: url("data:image/svg+xml,%3Csvg%20width%3D%221440%22%20height%3D%221240%22%20viewBox%3D%220%200%201440%201240%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M1623.03%201114C1614.28%201142.89%201607.58%201170.44%201590.33%201197.7C1587.28%201199.26%201584.14%201200.8%201582.81%201203.66C1579.89%201209.97%201580.04%201215.81%201577.16%201222.03C1574.46%201227.83%201569.72%201232.05%201563.46%201236.88C1558.25%201240.89%201561.35%201250.17%201556.14%201254.19C1543.29%201264.11%201535.94%201281.39%201527.02%201293.77C1510.77%201316.34%201489.61%201336.63%201466.65%201356.79C1398.12%201416.93%201339.35%201482.95%201270.52%201543.85C1224.82%201584.28%201153.87%201629.96%201080.08%201650.27C1003.24%201671.42%20919.849%201676.33%20836.692%201675.9C781.849%201675.62%20725.051%201677.76%20670.45%201674.35C609.501%201670.54%20547.856%201658.14%20490.45%201645.31C431.261%201632.08%20369.453%201607.21%20318.956%201584.04C281.04%201566.65%20244.387%201548.34%20208.033%201529.68C183.571%201517.13%20154.857%201506.55%20132.607%201492.51C34.3228%201430.46%2010.4911%201340.04%20-20.2039%201259.22C-58.3839%201158.7%20-88.1167%201057.86%20-112.602%20955.801C-125.09%20903.75%20-142.091%20852.291%20-141.818%20799.495C-141.562%20750.122%20-143.93%20700.412%20-138.548%20651.165C-128.843%20562.352%20-121.2%20478.175%20-75.7731%20393.14C-13.2979%20276.194%2075.3341%20152.903%20222.549%2067.4523C272.931%2038.2082%20336.616%202.45746%20410.54%202.83994C485.34%203.22694%20535.659%2028.018%20602.701%2045.8225C697.645%2071.0368%20774.657%20123.938%20872.703%20142.821C906.726%20149.373%20937.738%20162.011%20972.382%20167.454C993.605%20170.788%201020.62%20168.398%201042.43%20168.51C1103.14%20168.824%201142.73%20158.979%201200.44%20149.201C1273.29%20136.859%201385.34%20123.582%201437.76%20169.862C1473.83%20201.708%201514.3%20234.203%201539.83%20269.635C1563.68%20302.738%201580.2%20338.448%201596.84%20373.339C1617.64%20416.956%201639.72%20461.028%201653.42%20505.843C1665.88%20546.563%201665.78%20589.455%201665.57%20630.83L1664.85%20768.242C1664.64%20809.667%201675.49%20858.54%201661.68%20899.223C1653.37%20923.69%201659.64%20951.165%201658.78%20976.071C1658.13%20994.468%201649.22%201012.64%201648.48%201031.19C1647.37%201059%201631.26%201086.86%201623.03%201114Z%22%20fill%3D%22url(%23paint0_linear)%22%20fill-opacity%3D%220.87%22%2F%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22paint0_linear%22%20x1%3D%22748.998%22%20y1%3D%2294.5%22%20x2%3D%22762.998%22%20y2%3D%221269.5%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%3Cstop%20offset%3D%220.421875%22%20stop-color%3D%22%2347C5CD%22%2F%3E%0A%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23025B61%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%3C%2Fsvg%3E");
-    background-repeat: no-repeat;
-    background-position: bottom; */
-    display: flex;
-    /* background-color: rgba(71, 197, 205, 1); */
-}
-
-#contact>div {
-    width: 50%;
-}
-
-#contact p {
-    text-align: start;
-    margin: 60px;
-}
-
-#sosial {
-    margin-left: 60px;
-    display: flex;
-    width: 45%;
-    background: rgba(255, 255, 255, 0.38);
-    border-radius: 20px;
-    justify-content: space-evenly;
-}
-
-#sosial img {
-    width: 15%;
-    padding: 15px;
-}
-
-/* input {
-    font-size: small;
-    display: block;
-    background: #FFFFFF;
-    border-radius: 20px;
-    padding: 5px 25px;
-    margin: 20px;
-    width: 50%;
-    border: 0;
-} */
-
-/* textarea {
-    background: #FFFFFF;
-    display: block;
-    margin: 20px;
-    border-radius: 20px;
-    width: 50%;
-    padding: 5px 25px;
-} */
-
-.submit-question-btn {
-  width: 100%;
-  border-color: #7ce2e7;
-  color: #7ce2e7;
-}
-
-.submit-question-btn:hover {
-  background-color: #7ce2e7;
-  color: #fff;
-}
-
-.bg-footer {
-  background-color: #7ce2e7;
-}
-
-.medsos-container {
-  background-color: #ace9ec;
-  border-radius: 20px;
-}
-
+/* ---------------------------------------------------
+    NAVBAR
+----------------------------------------------------- */
 nav {
     padding: 0 15% 0 15%;
 }
@@ -258,7 +43,7 @@ nav {
 
 @media only screen and (max-width: 768px) {
   .overlay {
-    height: 100%;
+    height: 100vh;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -304,45 +89,188 @@ nav {
   .link-item {
     color: #fff !important;
   }
+}
 
-    .jumbotron {
-      text-align: center !important;
-      background-image: url(images/bg2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
+.overlay .closebtn {
+  display: none;
+}
 
-    #text {
-      padding-top: 40%;
-    }
+@media screen and (max-height: 450px) {
+  .overlay .closebtn {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 
-    .jumbotron img {
-      display: none !important;
-    }
 
-    #about {
-      text-align: center !important;
-      padding-left: inherit;
-      padding-right: inherit;
-    }
+/* ---------------------------------------------------
+    BANNER
+----------------------------------------------------- */
+.order:link {
+  text-decoration: none;
+}
 
-    #tentang {
-      text-align: center;
-      margin-left: auto;
-    }
+.order:visited {
+  text-decoration: none;
+}
 
-    #tentang p {
-      margin: 0 -30px 0 -30px;
-      line-height: 30px;
-    }
+.order:hover {
+  text-decoration: none;
+}
 
-    #tentang h2 {
-      margin-bottom: 10%;
-      margin-left: -25%;
-      margin-right: -25%;
-      font-weight: bold;
-    }
+.order:active {
+  text-decoration: none;
+}
 
+.jumbotron {
+    background-image: url(images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+
+.jumbotron h1 {
+    font-size: 2rem;
+    color: #00A3FF;
+}
+
+.jumbotron p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.15rem;
+}
+
+#text {
+    padding: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    text-align: center !important;
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .jumbotron img {
+    display: none !important;
+  }
+
+  #text {
+    padding: 40% 5% 15% 5%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #text {
+    padding-top: 60%;
+  }
+}
+
+.jumbotron img {
+    width: 25%;
+    margin: -30% 60%;
+    display: block;
+}
+
+.jumbotron a {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: medium;
+    background: #F9F9F9;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+/* ---------------------------------------------------
+    TENTANG
+----------------------------------------------------- */
+#tentang {
+    margin: 0 auto;
+    width: 45%;
+}
+
+#tentang p {
+    margin: 20px;
+    line-height: 30px;
+}
+
+#about {
+    text-align: center;
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%22772%22%20height%3D%22904%22%20viewBox%3D%220%200%20772%20904%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M-84.8752%20872.721C-107.38%20869.043%20-128.81%20866.334%20-150.166%20858.52C-151.42%20857.076%20-152.659%20855.588%20-154.894%20855.001C-159.817%20853.708%20-164.341%20853.894%20-169.196%20852.619C-173.732%20851.428%20-177.063%20849.215%20-180.894%20846.283C-184.08%20843.844%20-191.219%20845.517%20-194.406%20843.078C-202.27%20837.059%20-215.759%20833.836%20-225.478%20829.764C-243.19%20822.344%20-259.209%20812.505%20-275.149%20801.793C-322.708%20769.83%20-374.685%20742.691%20-422.838%20710.59C-454.803%20689.281%20-491.197%20655.867%20-507.988%20620.599C-525.474%20583.869%20-530.478%20543.662%20-531.341%20503.468C-531.911%20476.958%20-534.387%20449.551%20-532.53%20423.1C-530.457%20393.572%20-521.741%20363.544%20-512.632%20335.557C-503.239%20306.7%20-484.865%20276.355%20-467.653%20251.508C-454.729%20232.852%20-441.077%20214.789%20-427.151%20196.863C-417.781%20184.802%20-410.007%20170.723%20-399.449%20159.701C-352.812%20111.017%20-283.129%2097.7699%20-220.985%2081.3896C-143.687%2061.0151%20-66.0216%2044.7166%2012.6588%2030.931C52.7883%2023.8999%2092.395%2014.699%20133.285%2013.8207C171.524%2012.9993%20209.986%2010.9039%20248.202%2012.5622C317.12%2015.5528%20382.418%2017.6352%20448.924%2037.9612C540.388%2065.915%20637.143%20106.388%20705.436%20175.896C728.808%20199.684%20757.411%20229.776%20758.178%20265.508C758.955%20301.663%20740.48%20326.455%20727.657%20359.194C709.497%20405.559%20669.637%20443.789%20656.425%20491.532C651.84%20508.099%20642.499%20523.328%20638.783%20540.174C636.506%20550.494%20638.746%20563.501%20638.973%20574.048C639.603%20603.391%20647.797%20622.334%20656.2%20650.038C666.806%20685.007%20678.7%20738.901%20643.615%20765.118C619.471%20783.159%20594.889%20803.34%20567.817%20816.354C542.524%20828.512%20515.108%20837.181%20488.327%20845.89C454.848%20856.776%20421.035%20868.288%20386.527%20875.77C355.172%20882.569%20321.955%20883.342%20289.91%20884.03L183.485%20886.316C151.402%20887.005%20113.709%20893.183%2082.0054%20887.286C62.9379%20883.739%2041.7514%20887.298%2022.4512%20887.355C8.19459%20887.397%20-6.00746%20883.439%20-20.384%20883.436C-41.9349%20883.43%20-63.7385%20876.176%20-84.8752%20872.721Z%22%20fill%3D%22%2367DDE4%22%20fill-opacity%3D%220.87%22%2F%3E%0A%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: left;
+    /* margin-top: 3%; */
+}
+
+#about>h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #tentang, #mengapa {
+    width: 80% !important;
+  }
+
+  #about {
+    text-align: center !important;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+  #tentang {
+    text-align: center;
+    margin-left: auto;
+  }
+
+  #tentang p {
+    margin: 0 -30px 0 -30px;
+    line-height: 30px;
+  }
+
+  #tentang h2 {
+    margin-bottom: 10%;
+    margin-left: -25%;
+    margin-right: -25%;
+    font-weight: bold;
+  }
+}
+
+
+/* ---------------------------------------------------
+    MENGAPA
+----------------------------------------------------- */
+#mengapa {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#mengapa h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 20px;
+}
+
+#mengapa>div {
+    display: flex;
+    align-items: center;
+}
+
+#mengapa img {
+    width: 25%;
+}
+
+#mengapa #g1 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
   #mengapa>div {
     display: block !important;
   }
@@ -359,18 +287,62 @@ nav {
     display: block !important;
     margin: auto;
   }
-
 }
 
-.overlay .closebtn {
-  display: none;
+
+/* ---------------------------------------------------
+    TIM
+----------------------------------------------------- */
+#tim {
+    text-align: center;
+    margin-top: 7rem;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay .closebtn {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+#tim>div {
+    display: flex;
+}
+
+#tim img {
+    margin: 40px 0;
+    width: 60%;
+}
+
+#tim>p {
+    margin-top: 40px;
+    text-align: center;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #tim>p {
+    width: 80% !important;
   }
+}
+
+
+/* ---------------------------------------------------
+    PERTANYAAN
+----------------------------------------------------- */
+.submit-question-btn {
+  width: 100%;
+  border-color: #7ce2e7;
+  color: #7ce2e7;
+}
+
+.submit-question-btn:hover {
+  background-color: #7ce2e7;
+  color: #fff;
+}
+
+
+/* ---------------------------------------------------
+    FOOTER
+----------------------------------------------------- */
+.bg-footer {
+  background-color: #7ce2e7;
+}
+
+.medsos-container {
+  background-color: #ace9ec;
+  border-radius: 20px;
 }
