@@ -344,5 +344,14 @@ nav {
 
 .medsos-container {
   background-color: #ace9ec;
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+.copyright {
+  background-color: #ace9ec;
+}
+
+.copyright p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }

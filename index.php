@@ -56,11 +56,10 @@
                 <img src="images/app_development_PNG.png" alt="">
             </div>
         </div>
-
     </header>
 
     <main>
-        <!-- TENTANG -->
+      <!-- TENTANG -->
         <section id="about">
             <article id="tentang">
                 <h2>Tentang ProjectGan</h2>
@@ -172,7 +171,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-footer px-5">
+    <footer class="bg-footer">
       <div class="py-5 container">
         <div class="row">
           <div class="col-sm-10 col-lg-8 col-xl-9">
@@ -191,6 +190,9 @@
           </div>
         </div>
       </div>
+      <div class="py-2 text-center copyright">
+        <p>Developed by ProjectGan Copyright &copy; 2021</p>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -204,6 +206,7 @@
         function closeNav() {
             document.getElementById("overlayNav").style.width = "0%";
         }
+
         $(window).scroll(function() {
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 55);
         });
