@@ -172,7 +172,7 @@
     </section>
   </main>
   <!-- footer -->
-  <footer class="bg-footer px-5">
+  <footer class="bg-footer">
     <div class="py-5 container">
       <div class="row">
         <div class="col-sm-10 col-lg-8 col-xl-9">
@@ -191,9 +191,10 @@
         </div>
       </div>
     </div>
+    <!-- copyright -->
+    <p id="copyright" class="py-2">Developed by ProjectGan Copyright &copy; 2021</p>
   </footer>
-  <!-- copyright -->
-  <p id="copyright">Developed by ProjectGan Copyright &copy; 2021</p>
+
 
   <!-- bootstrap script -->
   <script src="resources/bootstrap/bootstrap.bundle.min.js"></script>

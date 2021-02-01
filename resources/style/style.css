@@ -8,6 +8,46 @@
     line-height: 1.75rem;
 }
 
+h2 {
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------
+    NAVBAR
+----------------------------------------------------- */
+nav {
+    padding: 0 15% 0 15%;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    padding: 0 10%;
+    padding-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  nav {
+    padding: 0 7%;
+    padding-left: 3%;
+  }
+}
+
+.navbar {
+    background: transparent !important;
+    transition: 0.75s ease;
+}
+
+.navbar.scrolled {
+    background: #fff !important;
+    box-shadow: 5px 5px 6px 5px #888888;
+}
+
+
+/* ---------------------------------------------------
+    BANNER
+----------------------------------------------------- */
+
 #text a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
@@ -53,6 +93,27 @@
     padding: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+      text-align: center !important;
+      background-image: url(../images/bg2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #text {
+      padding-top: 40%;
+    }
+
+    .jumbotron img {
+      display: none !important;
+    }
+}
+
+/* ---------------------------------------------------
+    TENTANG
+----------------------------------------------------- */
+
 #about {
     text-align: center;
 }
@@ -63,24 +124,9 @@
     margin-bottom: 5rem;
 }
 
-@media only screen and (max-width: 768px) {
-  #tentang, #mengapa {
-    width: 80% !important;
-  }
-}
-
 #tentang p {
     margin: 20px;
     line-height: 30px;
-}
-
-h2 {
-  font-weight: bold;
-}
-
-#mengapa {
-    width: 50%;
-    margin: 0 auto;
 }
 
 #about {
@@ -92,6 +138,44 @@ h2 {
 
 #about>h2 {
   margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tentang, #mengapa {
+    width: 80% !important;
+  }
+
+  #about {
+    text-align: center !important;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+  #tentang {
+    text-align: center;
+    margin-left: auto;
+  }
+
+  #tentang p {
+    margin: 0 -30px 0 -30px;
+    line-height: 30px;
+  }
+
+  #tentang h2 {
+    margin-bottom: 10%;
+    margin-left: -25%;
+    margin-right: -25%;
+    font-weight: bold;
+  }
+}
+
+
+/* ---------------------------------------------------
+    MENGAPA
+----------------------------------------------------- */
+#mengapa {
+    width: 50%;
+    margin: 0 auto;
 }
 
 #mengapa h3 {
@@ -113,6 +197,29 @@ h2 {
   display: none;
 }
 
+@media only screen and (max-width: 768px) {
+  #mengapa>div {
+    display: block !important;
+  }
+
+  #mengapa img {
+    width: 50% !important;
+  }
+
+  #mengapa #g2 {
+    display: none  !important;
+  }
+
+  #mengapa #g1 {
+    display: block !important;
+    margin: auto;
+  }
+}
+
+
+/* ---------------------------------------------------
+    TIM
+----------------------------------------------------- */
 #tim {
     text-align: center;
     margin-top: 7rem;
@@ -139,67 +246,19 @@ h2 {
   }
 }
 
+
+/* ---------------------------------------------------
+    PORTOFOLIO
+----------------------------------------------------- */
 #portofolio {
     text-align: center;
     height: 100vh;
 }
 
-#contact {
-    /* padding-top: 105px; */
-    text-align: center;
-    color: white;
-    /* width: 100%;
-    height: 155vh; */
-    /* background-image: url("data:image/svg+xml,%3Csvg%20width%3D%221440%22%20height%3D%221240%22%20viewBox%3D%220%200%201440%201240%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M1623.03%201114C1614.28%201142.89%201607.58%201170.44%201590.33%201197.7C1587.28%201199.26%201584.14%201200.8%201582.81%201203.66C1579.89%201209.97%201580.04%201215.81%201577.16%201222.03C1574.46%201227.83%201569.72%201232.05%201563.46%201236.88C1558.25%201240.89%201561.35%201250.17%201556.14%201254.19C1543.29%201264.11%201535.94%201281.39%201527.02%201293.77C1510.77%201316.34%201489.61%201336.63%201466.65%201356.79C1398.12%201416.93%201339.35%201482.95%201270.52%201543.85C1224.82%201584.28%201153.87%201629.96%201080.08%201650.27C1003.24%201671.42%20919.849%201676.33%20836.692%201675.9C781.849%201675.62%20725.051%201677.76%20670.45%201674.35C609.501%201670.54%20547.856%201658.14%20490.45%201645.31C431.261%201632.08%20369.453%201607.21%20318.956%201584.04C281.04%201566.65%20244.387%201548.34%20208.033%201529.68C183.571%201517.13%20154.857%201506.55%20132.607%201492.51C34.3228%201430.46%2010.4911%201340.04%20-20.2039%201259.22C-58.3839%201158.7%20-88.1167%201057.86%20-112.602%20955.801C-125.09%20903.75%20-142.091%20852.291%20-141.818%20799.495C-141.562%20750.122%20-143.93%20700.412%20-138.548%20651.165C-128.843%20562.352%20-121.2%20478.175%20-75.7731%20393.14C-13.2979%20276.194%2075.3341%20152.903%20222.549%2067.4523C272.931%2038.2082%20336.616%202.45746%20410.54%202.83994C485.34%203.22694%20535.659%2028.018%20602.701%2045.8225C697.645%2071.0368%20774.657%20123.938%20872.703%20142.821C906.726%20149.373%20937.738%20162.011%20972.382%20167.454C993.605%20170.788%201020.62%20168.398%201042.43%20168.51C1103.14%20168.824%201142.73%20158.979%201200.44%20149.201C1273.29%20136.859%201385.34%20123.582%201437.76%20169.862C1473.83%20201.708%201514.3%20234.203%201539.83%20269.635C1563.68%20302.738%201580.2%20338.448%201596.84%20373.339C1617.64%20416.956%201639.72%20461.028%201653.42%20505.843C1665.88%20546.563%201665.78%20589.455%201665.57%20630.83L1664.85%20768.242C1664.64%20809.667%201675.49%20858.54%201661.68%20899.223C1653.37%20923.69%201659.64%20951.165%201658.78%20976.071C1658.13%20994.468%201649.22%201012.64%201648.48%201031.19C1647.37%201059%201631.26%201086.86%201623.03%201114Z%22%20fill%3D%22url(%23paint0_linear)%22%20fill-opacity%3D%220.87%22%2F%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22paint0_linear%22%20x1%3D%22748.998%22%20y1%3D%2294.5%22%20x2%3D%22762.998%22%20y2%3D%221269.5%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%3Cstop%20offset%3D%220.421875%22%20stop-color%3D%22%2347C5CD%22%2F%3E%0A%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23025B61%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%3C%2Fsvg%3E");
-    background-repeat: no-repeat;
-    background-position: bottom; */
-    display: flex;
-    /* background-color: rgba(71, 197, 205, 1); */
-}
 
-#contact>div {
-    width: 50%;
-}
-
-#contact p {
-    text-align: start;
-    margin: 60px;
-}
-
-#sosial {
-    margin-left: 60px;
-    display: flex;
-    width: 45%;
-    background: rgba(255, 255, 255, 0.38);
-    border-radius: 20px;
-    justify-content: space-evenly;
-}
-
-#sosial img {
-    width: 15%;
-    padding: 15px;
-}
-
-/* input {
-    font-size: small;
-    display: block;
-    background: #FFFFFF;
-    border-radius: 20px;
-    padding: 5px 25px;
-    margin: 20px;
-    width: 50%;
-    border: 0;
-} */
-
-/* textarea {
-    background: #FFFFFF;
-    display: block;
-    margin: 20px;
-    border-radius: 20px;
-    width: 50%;
-    padding: 5px 25px;
-} */
-
+/* ---------------------------------------------------
+    PERTANYAAN
+----------------------------------------------------- */
 .submit-question-btn {
   width: 100%;
   border-color: #7ce2e7;
@@ -211,12 +270,12 @@ h2 {
   color: #fff;
 }
 
+
+/* ---------------------------------------------------
+    FOOTER
+----------------------------------------------------- */
 .bg-footer {
   background-color: #7ce2e7;
-}
-
-.bg-footer .row {
-  margin-bottom: 100px;
 }
 
 .medsos-container {
@@ -229,105 +288,6 @@ h2 {
 #copyright {
   text-align: center;
   margin-bottom: 0;
-  padding-bottom: 0.9rem;
   background-color: #ace9ec;
-  padding: 10px;
-}
-
-nav {
-    padding: 0 15% 0 15%;
-}
-
-@media only screen and (max-width: 800px) {
-  nav {
-    padding: 0 10%;
-    padding-left: 3%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  nav {
-    padding: 0 7%;
-    padding-left: 3%;
-  }
-}
-
-.navbar {
-    background: transparent !important;
-    transition: 0.75s ease;
-}
-
-.navbar.scrolled {
-    background: #fff !important;
-    box-shadow: 5px 5px 6px 5px #888888;
-}
-
-@media only screen and (max-width: 768px) {
-    .jumbotron {
-      text-align: center !important;
-      background-image: url(../images/bg2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    #text {
-      padding-top: 40%;
-    }
-
-    .jumbotron img {
-      display: none !important;
-    }
-
-    #about {
-      text-align: center !important;
-      padding-left: inherit;
-      padding-right: inherit;
-    }
-
-    #tentang {
-      text-align: center;
-      margin-left: auto;
-    }
-
-    #tentang p {
-      margin: 0 -30px 0 -30px;
-      line-height: 30px;
-    }
-
-    #tentang h2 {
-      margin-bottom: 10%;
-      margin-left: -25%;
-      margin-right: -25%;
-      font-weight: bold;
-    }
-
-    #mengapa>div {
-      display: block !important;
-    }
-
-    #mengapa img {
-      width: 50% !important;
-    }
-
-    #mengapa #g2 {
-      display: none  !important;
-    }
-
-    #mengapa #g1 {
-      display: block !important;
-      margin: auto;
-    }
-}
-
-.overlay .closebtn {
-  display: none;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay .closebtn {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+  font-size: 0.9rem;
 }
