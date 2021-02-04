@@ -1,3 +1,5 @@
+<?php include 'sendemail.php'; ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -137,12 +139,13 @@
       <div class="container-fluid text-center">
         <h2>Punya Pertanyaan?</h2>
         <h5 class="mb-4 fw-normal">Tanyakan Saja</h5>
-        <form>
+        <!-- FORM -->
+        <form class="contact" action="" method="post">
           <div class="row justify-content-center mb-3">
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
                 <label for="name" class="fw-normal fs-6">Nama</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" name="name" id="name">
               </div>
             </div>
           </div>
@@ -150,7 +153,7 @@
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
                 <label for="email" class="fw-normal fs-6">Email</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" name="email" id="email">
               </div>
             </div>
           </div>
@@ -158,14 +161,17 @@
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
                 <label for="message" class="fw-normal fs-6">Pesan</label>
-                <textarea class="form-control" rows="3"></textarea>
+                <textarea class="form-control" name="message" rows="3"></textarea>
               </div>
             </div>
           </div>
           <div class="row justify-content-center">
             <div class="col-sm-10 col-md-8 col-lg-6 mb-4">
-              <a href="#" class="btn fs-6 submit-question-btn">Submit Pertanyaan</a>
+              <input class="btn fs-6 submit-question-btn" type="submit" name="submit" value="Submit">
             </div>
+            <!-- ALERT -->
+            <?= $alert; ?>
+            <!-- END ALERT -->
           </div>
         </form>
       </div>
@@ -178,15 +184,15 @@
         <div class="col-sm-10 col-lg-8 col-xl-9">
           <h4>ProjectGan</h4>
           <p class="fw-normal">Jl. Kaliurang KM 12.5, Sardonoharjo, Nganglik, Sleman, D.I Yogyakarta.</p>
-          <p class="fw-normal mb-0">WA/Telp: 082238248899 <br>Email: projectgan@gmail.com</p>
+          <p class="fw-normal mb-0">WA/Telp: 081326768372 <br>Email: projectgan.center@gmail.com</p>
         </div>
         <div class="col-sm-10 col-lg-4 col-xl-3 mt-5 mt-lg-0">
           <h4>Contact Us</h4>
           <div id="contactUs" class="pt-2 pb-1 medsos-container">
             <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
-            <a href="#"><i class="fab fa-whatsapp fa-2x text-success mx-3"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=6281326768372"><i class="fab fa-whatsapp fa-2x text-success mx-3"></i></a>
             <a href="#"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
-            <a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x text-danger mx-3"></i></a>
           </div>
         </div>
       </div>
@@ -206,6 +212,20 @@
       $('nav').toggleClass('scrolled', $(this).scrollTop() > 55);
     });
   </script>
+
+  <script>
+    if (window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+    }
+  </script>
+
+  <script>
+    var alertList = document.querySelectorAll('.alert')
+    alertList.forEach(function(alert) {
+      new bootstrap.Alert(alert)
+    })
+  </script>
+
 </body>
 
 </html>
