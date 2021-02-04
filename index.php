@@ -145,7 +145,7 @@
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
                 <label for="name" class="fw-normal fs-6">Nama</label>
-                <input type="text" class="form-control" name="name" id="name">
+                <input type="text" class="form-control" name="name" id="name" required>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
                 <label for="email" class="fw-normal fs-6">Email</label>
-                <input type="email" class="form-control" name="email" id="email">
+                <input type="email" class="form-control" name="email" id="email" required>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
                 <label for="message" class="fw-normal fs-6">Pesan</label>
-                <textarea class="form-control" name="message" rows="3"></textarea>
+                <textarea class="form-control" name="message" rows="3" required></textarea>
               </div>
             </div>
           </div>
