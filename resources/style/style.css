@@ -21,15 +21,7 @@ nav {
 
 @media only screen and (max-width: 800px) {
   nav {
-    padding: 0 10%;
-    padding-left: 3%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  nav {
     padding: 0 7%;
-    padding-left: 3%;
   }
 }
 

@@ -130,7 +130,7 @@
         </div>
       </div>
       <!-- jalan hidup -->
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" id="tandaFormTanya">
         <p class="col-12 col-lg-6">Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
       </div>
     </section>
@@ -140,7 +140,7 @@
         <h2>Punya Pertanyaan?</h2>
         <h5 class="mb-4 fw-normal">Tanyakan Saja</h5>
         <!-- FORM -->
-        <form class="contact" action="" method="post">
+        <form class="contact" action="index.php#tandaFormTanya" method="post">
           <div class="row justify-content-center mb-3">
             <div class="col-sm-10 col-md-8 col-lg-6">
               <div class="form-group text-start">
@@ -211,19 +211,15 @@
     $(window).scroll(function() {
       $('nav').toggleClass('scrolled', $(this).scrollTop() > 55);
     });
-  </script>
 
-  <script>
     if (window.history.replaceState) {
       window.history.replaceState(null, null, window.location.href);
     }
-  </script>
 
-  <script>
     var alertList = document.querySelectorAll('.alert')
     alertList.forEach(function(alert) {
       new bootstrap.Alert(alert)
-    })
+    });
   </script>
 
 </body>
