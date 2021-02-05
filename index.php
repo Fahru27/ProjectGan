@@ -64,7 +64,9 @@
       <!-- tentang -->
       <article id="tentang" data-aos="fade-up" data-aos-duration="1000">
         <h2>Tentang ProjectGan</h2>
-        <p>Project Gan terbentuk dari sekelompok mahasiswa gabut jurusan informatika Universitas Islam Indonesia. Kami menawarkan jasa pembuatan web dengan harga yang dapat anda atur sendiri. Hanya disini anda bisa mendapatkan jasa pembuatan web dengan harga sesuai keinginan anda.</p>
+        <p>Project Gan terbentuk dari sekelompok mahasiswa gabut jurusan informatika Universitas Islam Indonesia. Kami
+          menawarkan jasa pembuatan web dengan harga yang dapat anda atur sendiri. Hanya disini anda bisa mendapatkan
+          jasa pembuatan web dengan harga sesuai keinginan anda.</p>
       </article>
       <!-- mengapa -->
       <h2 data-aos="fade-up" data-aos-duration="1000">Mengapa ProjectGan?</h2>
@@ -74,7 +76,8 @@
           <img src="resources/images/Online payment _Two Color (3).png" alt="">
           <div>
             <h3>Harga Bersahabat</h3>
-            <p>Dengan harga yang dijamin lebih murah dari yang lain, anda bisa mendapatkan website dengan kualitas dan keamanan terjamin.</p>
+            <p>Dengan harga yang dijamin lebih murah dari yang lain, anda bisa mendapatkan website dengan kualitas dan
+              keamanan terjamin.</p>
           </div>
         </div>
         <!-- mengapa 2 -->
@@ -103,35 +106,36 @@
         <!-- alip -->
         <div class="col-6 col-md-3" data-aos="flip-left" data-aos-duration="500">
           <div>
-            <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+            <img src="resources/images/alip.jpeg" class="rounded-circle" alt="">
             <p>Alif Maulana R.</p>
           </div>
         </div>
         <!-- udin -->
         <div class="col-6 col-md-3" data-aos="flip-left" data-aos-duration="1000">
           <div>
-            <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+            <img src="resources/images/fahru.jpeg" class="rounded-circle" alt="">
             <p>Fahrudin Nasikh A.</p>
           </div>
         </div>
         <!-- ilham -->
         <div class="col-6 col-md-3" data-aos="flip-left" data-aos-duration="1500">
           <div>
-            <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+            <img src="resources/images/ilham.jpeg" class="rounded-circle" alt="">
             <p>M. Ilham Rizkyakbar</p>
           </div>
         </div>
         <!-- naufal -->
         <div class="col-6 col-md-3" data-aos="flip-left" data-aos-duration="2000">
           <div>
-            <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/671/10689/apizaqhdp__82079.1605627908.jpg?c=1" alt="">
+            <img src="resources/images/nopal.jpeg" class="rounded-circle" alt="">
             <p>Naufal Yusran</p>
           </div>
         </div>
       </div>
       <!-- jalan hidup -->
       <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" id="tandaFormTanya">
-        <p class="col-12 col-lg-6">Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta. Kami siap memberikan layanan terbaik kepada anda.</p>
+        <p class="col-12 col-lg-6">Kami semua merupakan mahasiswa informatika dari salah satu universitas di Yogyakarta.
+          Kami siap memberikan layanan terbaik kepada anda.</p>
       </div>
     </section>
     <!-- form pertanyaan -->
