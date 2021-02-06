@@ -142,8 +142,8 @@
       </div>
     </section>
     <!-- form pertanyaan -->
-    <p id="order_now"></p>
     <p id="hubungi_kami"></p>
+    <p id="order_now"></p>
     <section class="bg-light p-5 mt-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="container-fluid text-center">
         <h2>Hubungi Kami</h2>
