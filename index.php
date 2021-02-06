@@ -139,7 +139,8 @@
       </div>
     </section>
     <!-- form pertanyaan -->
-    <section class="bg-light p-5 mt-4" id="order_now" data-aos="fade-up" data-aos-duration="1000">
+    <p id="order_now"></p>
+    <section class="bg-light p-5 mt-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="container-fluid text-center">
         <h2>Hubungi Kami</h2>
         <h5 class="mb-4 fw-normal">Tulis Pesan</h5>
