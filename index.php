@@ -60,7 +60,7 @@
     </div>
   </header>
   <main>
-    <hr>
+    <p></p>
     <p id="tentang"></p>
     <section id="about">
       <!-- tentang -->
