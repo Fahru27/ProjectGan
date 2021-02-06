@@ -26,7 +26,7 @@
   <header>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
-      <a class="navbar-brand text-dark font-weight-bold">ProjectGan</a>
+      <a class="navbar-brand text-dark font-weight-bold"><img src="resources/images/logo-projectgan3.png" width="30%" alt=""></a>
       <button id="navbarButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -198,10 +198,10 @@
         <div class="col-sm-10 col-lg-4 col-xl-3 mt-5 mt-lg-0">
           <h4>Contact Us</h4>
           <div id="contactUs" class="pt-2 pb-1 medsos-container">
-            <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+            <a href="https://m.facebook.com/projectgan/"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
             <a href="https://api.whatsapp.com/send?phone=6281326768372"><i class="fab fa-whatsapp fa-2x text-success mx-3"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x text-danger mx-3"></i></a>
+            <a href="https://twitter.com/GanProject"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+            <a href="https://www.instagram.com/projectgan/"><i class="fab fa-instagram fa-2x text-danger mx-3"></i></a>
           </div>
         </div>
       </div>
