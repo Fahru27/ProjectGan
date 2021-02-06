@@ -26,7 +26,7 @@
   <header>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
-      <a class="navbar-brand text-dark font-weight-bold" href="#">ProjectGan</a>
+      <a class="navbar-brand text-dark font-weight-bold">ProjectGan</a>
       <button id="navbarButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -226,7 +226,7 @@
     });
 
     $('#navbarButton').click(function() {
-      $('nav').toggleClass('scrolled');
+      $('nav').addClass('scrolled');
     });
   </script>
 

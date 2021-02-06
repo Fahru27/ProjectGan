@@ -38,7 +38,7 @@ nav {
     transition: 0.75s ease;
 }
 
-.navbar.scrolled {
+.navbar.scrolled, .scrolled{
     background: #fff !important;
     box-shadow: 5px 5px 6px 5px #888888;
 }
