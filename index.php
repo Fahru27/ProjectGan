@@ -59,9 +59,9 @@
       </div>
     </div>
   </header>
+
+  <p id="tentang"></p>
   <main>
-    <p></p>
-    <p id="tentang"></p>
     <section id="about">
       <!-- tentang -->
       <article id="tentang" data-aos="fade-up" data-aos-duration="1000">
