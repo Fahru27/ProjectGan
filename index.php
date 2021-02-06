@@ -27,7 +27,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <a class="navbar-brand text-dark font-weight-bold" href="#">ProjectGan</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button id="navbarButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -127,7 +127,7 @@
         <!-- naufal -->
         <div class="col-6 col-md-3" data-aos="flip-left" data-aos-duration="2000">
           <div>
-            <img src="resources/images/nopal.jpeg" class="rounded-circle" alt="">
+            <img src="resources/images/nopal.jpg" class="rounded-circle" alt="">
             <p>Naufal Yusran</p>
           </div>
         </div>
@@ -223,6 +223,10 @@
     var alertList = document.querySelectorAll('.alert')
     alertList.forEach(function(alert) {
       new bootstrap.Alert(alert)
+    });
+
+    $('#navbarButton').click(function() {
+      $('nav').toggleClass('scrolled');
     });
   </script>
 
