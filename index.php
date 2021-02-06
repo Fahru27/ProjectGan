@@ -26,9 +26,11 @@
   <header>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
-      <a class="navbar-brand text-dark font-weight-bold"><img src="resources/images/logo-projectgan3.png" width="30%" alt=""></a>
-      <button id="navbarButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand"><img src="resources/images/logo-projectgan3-2.png" width="140" alt=""></a>
+      <button id="navbarButton" class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="bg-dark line1"></div>
+        <div class="bg-dark line2"></div>
+        <div class="bg-dark line3"></div>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
@@ -215,25 +217,8 @@
   <script src="resources/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="resources/bootstrap/jquery-3.5.1.min.js"></script>
   <script src="resources/bootstrap/jquery.bootstrap-growl.min.js"></script>
-  <!-- nav script -->
-  <script>
-    $(window).scroll(function() {
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 55);
-    });
-
-    if (window.history.replaceState) {
-      window.history.replaceState(null, null, window.location.href);
-    }
-
-    var alertList = document.querySelectorAll('.alert')
-    alertList.forEach(function(alert) {
-      new bootstrap.Alert(alert)
-    });
-
-    $('#navbarButton').click(function() {
-      $('nav').addClass('scrolled');
-    });
-  </script>
+  <!-- custom script -->
+  <script src="resources/js/script.js"></script>
 
 </body>
 
