@@ -141,8 +141,8 @@
     <!-- form pertanyaan -->
     <section class="bg-light p-5 mt-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="container-fluid text-center">
-        <h2>Punya Pertanyaan?</h2>
-        <h5 class="mb-4 fw-normal">Tanyakan Saja</h5>
+        <h2>Hubungi Kami</h2>
+        <h5 class="mb-4 fw-normal">Tulis Pesan</h5>
         <!-- FORM -->
         <form class="contact" action="index.php#tandaFormTanya" method="post">
           <div class="row justify-content-center mb-3">
