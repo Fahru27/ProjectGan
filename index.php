@@ -52,7 +52,7 @@
       <div id="text" data-aos="fade-right" data-aos-duration="1000">
         <h1>Build your website<br>with "project gan"</h1>
         <p>Providing good result with fair price</p>
-        <a href="">order now</a>
+        <a href="index.php#order_now">order now</a>
       </div>
       <div data-aos="fade-left" data-aos-duration="1000">
         <img src="resources/images/app_development_PNG.png" alt="">
@@ -139,7 +139,7 @@
       </div>
     </section>
     <!-- form pertanyaan -->
-    <section class="bg-light p-5 mt-4" data-aos="fade-up" data-aos-duration="1000">
+    <section class="bg-light p-5 mt-4" id="order_now" data-aos="fade-up" data-aos-duration="1000">
       <div class="container-fluid text-center">
         <h2>Hubungi Kami</h2>
         <h5 class="mb-4 fw-normal">Tulis Pesan</h5>
