@@ -36,13 +36,13 @@
             <a class="nav-link text-dark font-weight-bold link-item" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold link-item" href="#about">About</a>
+            <a class="nav-link text-dark font-weight-bold link-item" href="#tentang">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold link-item" href="#tim">Team</a>
+            <a class="nav-link text-dark font-weight-bold link-item" href="#tim_kami">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold link-item" href="#contactUs">Contact Us</a>
+            <a class="nav-link text-dark font-weight-bold link-item" href="#hubungi_kami">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -60,6 +60,8 @@
     </div>
   </header>
   <main>
+    <hr>
+    <p id="tentang"></p>
     <section id="about">
       <!-- tentang -->
       <article id="tentang" data-aos="fade-up" data-aos-duration="1000">
@@ -100,6 +102,7 @@
       </article>
     </section>
     <!-- aib -->
+    <p id="tim_kami"></p>
     <section id="tim" class="px-4">
       <h2 data-aos="fade-up" data-aos-duration="1000">Tim Kami</h2>
       <div class="container-fluid mb-5 row">
@@ -140,6 +143,7 @@
     </section>
     <!-- form pertanyaan -->
     <p id="order_now"></p>
+    <p id="hubungi_kami"></p>
     <section class="bg-light p-5 mt-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="container-fluid text-center">
         <h2>Hubungi Kami</h2>
