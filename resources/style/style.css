@@ -47,6 +47,8 @@ nav {
   width: 23px;
   height: 3px;
   margin: 5px;
+  background-color: #3b3e42;
+  box-shadow: none;
   transition: all 0.4s;
 }
 
@@ -120,12 +122,18 @@ nav {
     }
 
     #text {
-      padding: 55% 3% 0 3%;
+      padding: 40% 3% 0 3%;
     }
 
     .jumbotron img {
       display: none !important;
     }
+}
+
+@media only screen and (max-width: 576px) {
+  #text {
+    padding: 55% 3% 0 3%;
+  }
 }
 
 /* ---------------------------------------------------

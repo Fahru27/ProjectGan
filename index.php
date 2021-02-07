@@ -27,8 +27,11 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <a class="navbar-brand"><img src="resources/images/logo-projectgan3-2.png" width="140" alt=""></a>
-      <button id="navbarButton" class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button id="navbarButton" class="navbar-toggler shadow-none nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
